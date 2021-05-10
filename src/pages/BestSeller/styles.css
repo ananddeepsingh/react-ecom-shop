@@ -1,0 +1,18 @@
+.best-seller-container {
+	display: flex;
+  justify-content: space-evenly;
+  min-height: 400px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-seller-container .best-seller-products {
+	width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.best-seller-container p {
+  font-size: 14px;
+}
